@@ -1,0 +1,70 @@
+
+                                  
+                                 /* Navigation me changes yaha hu gy  */
+
+/* hum yeh kry gy ke parent walla flex box navigation me fload hu jaye  */
+#navbar{
+    flex-direction: column;
+    height: 96px;
+}
+
+/* overflow ko kam kry gy  */
+#navbar ul li a{
+    font-size: 1rem;
+    padding: 0px 7px;
+    padding-bottom: 5px;
+}
+                                 /* Home me changes yaha hu gy  */
+#home{
+    height: 378px;
+    padding: 3px 60px;
+    
+}
+#home::before{
+    height: 480px;
+    
+}
+
+#home p{
+    font-size: 13px;
+    
+}
+
+                                 /* Services me changes yaha hu gy  */
+#services{
+    flex-direction: column;
+}
+#services .box{
+    padding: 14px;
+    margin: 2px 0px;
+    margin-bottom: 20px;
+
+}
+
+                                /* Clients me changes yaha hu gy  */
+
+#clients{
+    flex-wrap: wrap;
+}
+#clients img{
+    width: 53px;
+    padding: 6px; 
+    height: auto;   
+}
+
+
+/* Contact us  me changes yaha hu gy  */
+#contact-box form{
+    width: 80%;
+}
+/* Footer me changes yaha hu gy  */
+
+
+/* utilities classes  */
+.h-primary{
+    font-size: 26px;
+}
+.btn{
+    font-size: 13px;
+    padding: 4px 8px;
+}
